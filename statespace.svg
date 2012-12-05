@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800px"
+   height="600px"
+   id="svg2816"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="statespace.svg">
+  <defs
+     id="defs2818">
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path4636"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path4138"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4132"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 300 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="800 : 300 : 1"
+       inkscape:persp3d-origin="400 : 200 : 1"
+       id="perspective2824" />
+    <inkscape:perspective
+       id="perspective4772"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-7"
+       style="overflow:visible">
+      <path
+         id="path4138-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4778"
+       style="overflow:visible">
+      <path
+         id="path4780"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:perspective
+       id="perspective4846"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-3"
+       style="overflow:visible">
+      <path
+         id="path4138-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4852"
+       style="overflow:visible">
+      <path
+         id="path4854"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:perspective
+       id="perspective2905"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2975"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3126"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5119"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5140"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5328"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-78"
+       style="overflow:visible">
+      <path
+         id="path4138-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5334"
+       style="overflow:visible">
+      <path
+         id="path5336"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4852-8"
+       style="overflow:visible">
+      <path
+         id="path4854-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-8"
+       style="overflow:visible">
+      <path
+         id="path4636-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.84852814"
+     inkscape:cx="728.98608"
+     inkscape:cy="195.57614"
+     inkscape:current-layer="layer9"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="master"
+     inkscape:groupmode="layer"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="28.284271"
+       y="75.562469"
+       id="text2826"><tspan
+         sodipodi:role="line"
+         id="tspan2828"
+         x="28.284271"
+         y="75.562469"
+         style="font-size:36px">title</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Introduction to State Space techniques"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="280.48569"
+       y="369.01178"
+       id="text2889"><tspan
+         sodipodi:role="line"
+         id="tspan2891"
+         x="280.48569"
+         y="369.01178" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="55"
+       y="430"
+       id="text3160"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3162"
+         x="55"
+         y="430"
+         style="font-size:20px;font-weight:bold">Tobin Fricke</tspan><tspan
+         sodipodi:role="line"
+         x="55"
+         y="455"
+         style="font-size:20px"
+         id="tspan3166"></tspan><tspan
+         sodipodi:role="line"
+         x="55"
+         y="480"
+         style="font-size:20px"
+         id="tspan3178">GEO ISC meeting - December 2012</tspan><tspan
+         sodipodi:role="line"
+         x="55"
+         y="505"
+         style="font-size:20px;fill:#808080;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         id="tspan3170"></tspan><tspan
+         sodipodi:role="line"
+         x="55"
+         y="530"
+         style="font-size:20px;fill:#808080;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         id="tspan3176">tobin.fricke@aei.mpg.de</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Our friend, the frequency domain"
+     style="display:none">
+    <g
+       id="g4809"
+       transform="translate(26.114387,8.1807022)">
+      <rect
+         ry="11.87429"
+         rx="13.492028"
+         y="208.73425"
+         x="220.38161"
+         height="166.17009"
+         width="305.23444"
+         id="rect3348"
+         style="color:#000000;fill:#f9fcd3;fill-opacity:1;stroke:#d40000;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         id="path3350"
+         d="m 249.8444,268.32272 141.13348,0 34.32976,-43.08932 74.38115,137.88582"
+         style="fill:none;stroke:#0067d5;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4124"
+         d="m 69.532167,281.80195 144.956893,0"
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+         d="m 529.53217,281.80195 144.95689,0"
+         id="path4762"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="89.566856"
+       y="496.29102"
+       id="text2873"><tspan
+         sodipodi:role="line"
+         id="tspan2875"
+         x="89.566856"
+         y="496.29102"
+         style="font-size:18px">System characterized via <tspan
+   style="font-weight:bold"
+   id="tspan5107">linear transfer functions<tspan
+   style="font-weight:normal"
+   id="tspan5109">.</tspan></tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="101.87602"
+       y="263.33252"
+       id="text2877"><tspan
+         sodipodi:role="line"
+         id="tspan2879"
+         x="101.87602"
+         y="263.33252"
+         style="font-size:20px;font-weight:bold"><tspan
+   style="font-weight:normal"
+   id="tspan2881">input: </tspan>u(s)</tspan></text>
+    <text
+       id="text2883"
+       y="263.33252"
+       x="597.87604"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-weight:bold"
+         y="263.33252"
+         x="597.87604"
+         id="tspan2885"
+         sodipodi:role="line"><tspan
+   id="tspan2887"
+   style="font-weight:normal">output: <tspan
+   style="font-weight:bold"
+   id="tspan2940">y</tspan></tspan>(s)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="260.97504"
+       y="368.22003"
+       id="text2893"><tspan
+         sodipodi:role="line"
+         id="tspan2895"
+         x="260.97504"
+         y="368.22003"
+         style="font-size:20px">H(s)</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="State space"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="98.490494"
+       y="372.95712"
+       id="text2877-9"><tspan
+         sodipodi:role="line"
+         id="tspan2879-8"
+         x="98.490494"
+         y="372.95712"
+         style="font-size:20px;font-weight:bold"><tspan
+   style="font-weight:normal"
+   id="tspan2881-2">input: </tspan>u(t)</tspan></text>
+    <text
+       id="text2883-6"
+       y="372.95712"
+       x="594.49048"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-weight:bold"
+         y="372.95712"
+         x="594.49048"
+         id="tspan2885-5"
+         sodipodi:role="line"><tspan
+   id="tspan2887-8"
+   style="font-weight:normal">output: <tspan
+   style="font-weight:bold"
+   id="tspan2940-5">y</tspan></tspan>(t)</tspan></text>
+    <g
+       id="g5305">
+      <path
+         id="path4124-3"
+         d="m 95.646554,331.98265 144.956896,0"
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+         d="m 555.64656,331.98265 144.95689,0"
+         id="path4762-3"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g5229">
+        <g
+           id="g5177">
+          <rect
+             ry="11.87429"
+             rx="13.492028"
+             y="216.91495"
+             x="246.49599"
+             height="166.17009"
+             width="305.23444"
+             id="rect3348-7"
+             style="color:#000000;fill:#f9fcd3;fill-opacity:1;stroke:#d40000;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+          <rect
+             ry="11.87429"
+             rx="13.492028"
+             y="117.98888"
+             x="325.2691"
+             height="65.996635"
+             width="146.13541"
+             id="rect3227"
+             style="color:#000000;fill:#f9fcd3;fill-opacity:1;fill-rule:nonzero;stroke:#d40000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+          <path
+             id="path3233"
+             d="m 550.71816,265.30279 70.3573,0 0,-115.49411 -143.96184,0"
+             style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker4852)"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:none"
+             d="m 238.30026,265.30279 -81.14575,0 0,-115.49411 166.03666,0"
+             id="path4431"
+             inkscape:connector-curvature="0" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:26.85138321px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+           x="349.75455"
+           y="286.33673"
+           id="text3132"><tspan
+             sodipodi:role="line"
+             x="349.75455"
+             y="286.33673"
+             id="tspan3136"
+             style="font-size:53.70276642px">A B</tspan><tspan
+             sodipodi:role="line"
+             x="349.75455"
+             y="353.46518"
+             style="font-size:53.70276642px"
+             id="tspan3140">C D</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+           x="365.33853"
+           y="159.23679"
+           id="text3229"><tspan
+             sodipodi:role="line"
+             id="tspan3231"
+             x="365.33853"
+             y="159.23679"
+             style="font-size:36px">∫dt</tspan></text>
+      </g>
+    </g>
+    <text
+       id="text5087"
+       y="294.95712"
+       x="98.490494"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-weight:bold"
+         y="294.95712"
+         x="98.490494"
+         id="tspan5089"
+         sodipodi:role="line"><tspan
+   style="font-weight:normal"
+   id="tspan5093">state: <tspan
+   style="font-weight:bold"
+   id="tspan5095">x</tspan></tspan>(t) </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="576.49048"
+       y="294.95712"
+       id="text5099"><tspan
+         sodipodi:role="line"
+         id="tspan5101"
+         x="576.49048"
+         y="294.95712"
+         style="font-size:20px;font-weight:bold"><tspan
+   id="tspan5103"
+   style="font-weight:normal">state derivative: <tspan
+   id="tspan5105"
+   style="font-weight:bold">x'</tspan></tspan>(t) </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="68.650711"
+       y="526.00555"
+       id="text2873-1"><tspan
+         sodipodi:role="line"
+         x="68.650711"
+         y="526.00555"
+         style="font-size:18px"
+         id="tspan5165">System represented as a collection of </tspan><tspan
+         sodipodi:role="line"
+         x="68.650711"
+         y="548.50555"
+         style="font-size:18px"
+         id="tspan5173"><tspan
+   style="font-weight:bold"
+   id="tspan5175">coupled linear first-order differential equations</tspan>.</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="State space: example"
+     style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="State estimation"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="74.246208"
+       y="181.62849"
+       id="text3143"><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="181.62849"
+         style="font-size:22px;font-weight:bold"
+         id="tspan3151">Problem:<tspan
+   style="font-weight:normal"
+   id="tspan3147"> Not all state information is directly observable.</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="209.12849"
+         style="font-size:22px;font-weight:bold"
+         id="tspan3159" /><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="236.62849"
+         style="font-size:22px;font-weight:bold"
+         id="tspan3161" /><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="264.12848"
+         style="font-size:22px;font-weight:bold"
+         id="tspan3163">Example: </tspan><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="291.62848"
+         style="font-size:22px;font-weight:normal"
+         id="tspan3173">In a double suspension, you might only </tspan><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="319.12848"
+         style="font-size:22px;font-weight:normal"
+         id="tspan3165">have sensors on one of the suspended masses.</tspan><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="346.62848"
+         style="font-size:22px;font-weight:normal"
+         id="tspan3180" /><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="374.12848"
+         style="font-size:22px;font-weight:bold"
+         id="tspan3182">Solution:</tspan><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="401.62848"
+         style="font-size:22px;font-weight:normal"
+         id="tspan3184">It turns out that there is a systematic way to estimate</tspan><tspan
+         sodipodi:role="line"
+         x="74.246208"
+         y="429.12848"
+         style="font-size:22px;font-weight:normal"
+         id="tspan3186">unsensed states.</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="State estimation II"
+     style="display:none">
+    <rect
+       ry="11.87429"
+       rx="13.492027"
+       y="323.12259"
+       x="163.81306"
+       height="252.20142"
+       width="445.47726"
+       id="rect5477"
+       style="color:#000000;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 4;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 4;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect5475"
+       width="445.47726"
+       height="252.20142"
+       x="162.63455"
+       y="57.957558"
+       rx="13.492027"
+       ry="11.87429" />
+    <path
+       id="path4762-3-4"
+       d="m 474.76548,217.09905 177.83744,0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="color:#000000;fill:#f9fcd3;fill-opacity:1;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3348-7-5"
+       width="171.52049"
+       height="93.376022"
+       x="301.53796"
+       y="152.43901"
+       rx="13.492027"
+       ry="11.87429" />
+    <rect
+       style="color:#000000;fill:#f9fcd3;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3227-2"
+       width="82.11792"
+       height="37.085514"
+       x="345.80298"
+       y="96.849449"
+       rx="13.492027"
+       ry="11.87429" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker4852)"
+       d="m 472.48964,179.62961 39.5359,0 0,-64.89965 -80.89653,0"
+       id="path3233-3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path4431-1"
+       d="m 296.93253,179.62961 -45.59826,0 0,-64.89965 93.30104,0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:none"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:15.08860779px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="359.56207"
+       y="191.44922"
+       id="text3132-0"><tspan
+         sodipodi:role="line"
+         x="359.56207"
+         y="191.44922"
+         id="tspan3136-9"
+         style="font-size:30.17721558px">A B</tspan><tspan
+         sodipodi:role="line"
+         x="359.56207"
+         y="229.17075"
+         style="font-size:30.17721558px"
+         id="tspan3140-0">C D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.6193037px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="368.31918"
+       y="120.0279"
+       id="text3229-0"><tspan
+         sodipodi:role="line"
+         id="tspan3231-6"
+         x="368.31918"
+         y="120.0279"
+         style="font-size:20.22949409px">∫dt</tspan></text>
+    <path
+       id="path5409"
+       d="m 35.280347,475.09905 254.958823,0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       d="m 475.11462,475.09905 180.33708,0"
+       id="path5411"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g5413"
+       transform="matrix(0.56193037,0,0,0.56193037,163.02438,288.54792)">
+      <g
+         id="g5415">
+        <rect
+           ry="21.131248"
+           rx="24.010141"
+           y="216.91495"
+           x="246.49599"
+           height="166.17009"
+           width="305.23444"
+           id="rect5417"
+           style="color:#000000;fill:#f9fcd3;fill-opacity:1;stroke:#d40000;stroke-width:7.11831951;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <rect
+           ry="21.131248"
+           rx="24.010141"
+           y="117.98888"
+           x="325.2691"
+           height="65.996635"
+           width="146.13541"
+           id="rect5419"
+           style="color:#000000;fill:#f9fcd3;fill-opacity:1;fill-rule:nonzero;stroke:#d40000;stroke-width:7.11831951;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <path
+           id="path5421"
+           d="m 550.71816,265.30279 70.3573,0 0,-115.49411 -143.96184,0"
+           style="fill:none;stroke:#000000;stroke-width:5.33873987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker4852)"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:5.33873987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:none"
+           d="m 238.30026,265.30279 -81.14575,0 0,-115.49411 166.03666,0"
+           id="path5423"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:26.85138321px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+         x="349.75455"
+         y="286.33673"
+         id="text5425"><tspan
+           sodipodi:role="line"
+           x="349.75455"
+           y="286.33673"
+           id="tspan5427"
+           style="font-size:53.70276642px">A B</tspan><tspan
+           sodipodi:role="line"
+           x="349.75455"
+           y="353.46518"
+           style="font-size:53.70276642px"
+           id="tspan5429">C D</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+         x="365.33853"
+         y="159.23679"
+         id="text5431"><tspan
+           sodipodi:role="line"
+           id="tspan5433"
+           x="365.33853"
+           y="159.23679"
+           style="font-size:36px">∫dt</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="205.06097"
+       y="293.65982"
+       id="text5479"><tspan
+         sodipodi:role="line"
+         id="tspan5481"
+         x="205.06097"
+         y="293.65982"
+         style="font-size:20px">REAL PHYSICS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="202.70393"
+       y="560.00336"
+       id="text5483"><tspan
+         sodipodi:role="line"
+         id="tspan5485"
+         x="202.70393"
+         y="560.00336"
+         style="font-size:20px">COMPUTER SIMULATION</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker4852-8)"
+       d="m 110.83333,475 0,-250.83333 187.5,0"
+       id="path5511"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path5717"
+       sodipodi:cx="-197.9899"
+       sodipodi:cy="358.40518"
+       sodipodi:rx="8.2495794"
+       sodipodi:ry="8.2495794"
+       d="m -189.74032,358.40518 a 8.2495794,8.2495794 0 1 1 -16.49916,0 8.2495794,8.2495794 0 1 1 16.49916,0 z"
+       transform="translate(308.84145,116.18446)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Controller"
+     style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Robustness"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="55.39003"
+       y="176.91444"
+       id="text3188"><tspan
+         sodipodi:role="line"
+         id="tspan3190"
+         x="55.39003"
+         y="176.91444"
+         style="font-size:20px;font-weight:bold">Problem:</tspan><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="201.91444"
+         style="font-size:20px"
+         id="tspan3192" /><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="226.91444"
+         style="font-size:20px"
+         id="tspan3194">If your model does not match your system exactly, the resulting</tspan><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="251.91444"
+         style="font-size:20px"
+         id="tspan3196">state estimator and controller might not work.</tspan><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="276.91443"
+         style="font-size:20px"
+         id="tspan3185" /><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="301.91443"
+         style="font-size:20px;fill:#808080"
+         id="tspan3187">(See paper by Ken Strain and Brett Shapiro, </tspan><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="326.91443"
+         style="font-size:20px;fill:#808080"
+         id="tspan3191">and Fu's talk at the last GEO ISC meeting!)</tspan><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="351.91443"
+         style="font-size:20px"
+         id="tspan3198" /><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="376.91443"
+         style="font-size:20px;font-weight:bold"
+         id="tspan3200">Solution:</tspan><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="401.91443"
+         style="font-size:20px;font-weight:normal"
+         id="tspan3206" /><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="426.91443"
+         style="font-size:20px;font-weight:normal"
+         id="tspan3208">This seems to be an area of <tspan
+   style="font-weight:bold;fill:#d40000"
+   id="tspan3220">active research</tspan><tspan
+   style="font-weight:bold"
+   id="tspan3189">:</tspan> &quot;robust control&quot;.</tspan><tspan
+         sodipodi:role="line"
+         x="55.39003"
+         y="451.91443"
+         style="font-size:20px;font-weight:normal"
+         id="tspan3210" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="560"
+       y="260"
+       id="text3180"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3183"
+         x="560"
+         y="260" /></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Questions I have"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="51.854492"
+       y="142.73761"
+       id="text2845"><tspan
+         sodipodi:role="line"
+         id="tspan2847"
+         x="51.854492"
+         y="142.73761"
+         style="font-size:20px;font-weight:bold">Is this useful to us?</tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="167.73761"
+         style="font-size:20px"
+         id="tspan2855">(My guesses: </tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="192.73761"
+         style="font-size:20px"
+         id="tspan2861">for single cavities, no.  </tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="217.73761"
+         style="font-size:20px"
+         id="tspan2859">For suspensions, sometimes.</tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="242.73761"
+         style="font-size:20px"
+         id="tspan2857">For seismic isolation - maybe? </tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="267.73761"
+         style="font-size:20px"
+         id="tspan2863">for interferometer lock acquisition - could be very interesting!)</tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="292.73761"
+         style="font-size:20px"
+         id="tspan2849" /><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="317.73761"
+         style="font-size:20px;font-weight:bold"
+         id="tspan2853">How is system identification done in state space?</tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="342.73761"
+         style="font-size:20px;font-weight:normal"
+         id="tspan2867">Our measurements are made in the time domain (step response)</tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="367.73761"
+         style="font-size:20px;font-weight:normal"
+         id="tspan2869">or frequency domain (transfer functions).  How do we use these</tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="392.73761"
+         style="font-size:20px;font-weight:normal"
+         id="tspan2871">measurements to improve the state space models?</tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="417.73761"
+         style="font-size:20px;font-weight:normal"
+         id="tspan3143" /><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="442.73761"
+         style="font-size:20px;font-weight:normal"
+         id="tspan3145" /><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="467.73761"
+         style="font-size:20px;font-weight:normal"
+         id="tspan3148" /><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="492.73761"
+         style="font-size:20px;font-weight:bold;fill:#800000"
+         id="tspan3150">Reference</tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="517.73761"
+         style="font-size:20px;font-weight:bold;fill:#000000"
+         id="tspan3152">Control system design: an introduction to state-space-methods</tspan><tspan
+         sodipodi:role="line"
+         x="51.854492"
+         y="542.73761"
+         style="font-size:20px;font-weight:normal;fill:#000000"
+         id="tspan3154">by Bernard Friedland</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#800000;stroke-width:4.41400145999999971;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3158"
+       sodipodi:sides="5"
+       sodipodi:cx="395"
+       sodipodi:cy="455"
+       sodipodi:r1="24.776781"
+       sodipodi:r2="12.388391"
+       sodipodi:arg1="0.83298127"
+       sodipodi:arg2="1.4612998"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 411.66667,473.33333 -15.31289,-6.01913 -13.63953,9.20205 0.99259,-16.42343 -12.96652,-10.12838 15.92635,-4.13111 5.62578,-15.46173 8.85043,13.87027 16.44344,0.5725 -10.45648,12.70341 z"
+       inkscape:transform-center-x="0.56877286"
+       inkscape:transform-center-y="-1.0573677"
+       transform="matrix(0.6798019,0,0,0.67950899,-241.28965,176.26356)" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       x="13.333334"
+       y="157.5"
+       id="text3193"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3195"
+         x="13.333334"
+         y="157.5"
+         style="font-size:40px;fill:#800000">?</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3197"
+       y="325"
+       x="15.833334"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+       xml:space="preserve"><tspan
+         style="font-size:40px;fill:#800000"
+         y="325"
+         x="15.833334"
+         id="tspan3199"
+         sodipodi:role="line">?</tspan></text>
+  </g>
+</svg>
